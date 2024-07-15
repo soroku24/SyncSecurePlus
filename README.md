@@ -37,7 +37,7 @@ Edit this configuration file to match your setup with your Discord bot tokens an
 
 DiscordVelocityPlus supports addons that can interact with the Discord bots. These addons can extend the functionality of the bots and provide various features.
 
-### [LuckPermsLogger]((https://github.com/OfficialRikiDev/LuckPermsLogger) 
+### [LuckPermsLogger](https://github.com/OfficialRikiDev/LuckPermsLogger) 
 
 One of the addons for DiscordVelocityPlus is `luckpermslogger`. This addon logs LuckPerms events and sends these logs to a specified Discord channel using a bot managed by DiscordVelocityPlus.
 
