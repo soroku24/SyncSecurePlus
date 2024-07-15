@@ -1,0 +1,11 @@
+enabled: true
+
+
+bots:
+  - name: ""
+    token: ""
+    guild_id: ""
+
+  - name: ""
+    token: ""
+    guild_id: ""
