@@ -1,6 +1,6 @@
-# DiscordVelocityPlus Plugin
+# SyncSecure+ Plugin
 
-DiscordVelocityPlus is a Minecraft plugin designed to integrate multiple Discord bots with your server. The project is currently under development with plans to inspect and add more features.
+SyncSecurePlus is a Minecraft plugin designed to integrate multiple Discord bots with your server. The project is currently under development with plans to inspect and add more features.
 
 ## Features
 
@@ -9,14 +9,14 @@ DiscordVelocityPlus is a Minecraft plugin designed to integrate multiple Discord
 
 ## Installation
 
-1. Download the DiscordVelocityPlus plugin jar file.
+1. Download the SyncSecurePlus plugin jar file.
 2. Place the jar file in the `plugins` directory of your Minecraft server.
-3. Start your server to generate the default configuration files for DiscordVelocityPlus.
+3. Start your server to generate the default configuration files for SyncSecurePlus.
 4. Configure the plugin using the generated configuration files.
 
 ## Configuration
 
-Below is an example configuration for DiscordVelocityPlus:
+Below is an example configuration for SyncSecurePlus:
 
 ```yaml
 enabled: true # Set to true to enable the feature
@@ -35,11 +35,11 @@ Edit this configuration file to match your setup with your Discord bot tokens an
 
 ## Addons
 
-DiscordVelocityPlus supports addons that can interact with the Discord bots. These addons can extend the functionality of the bots and provide various features.
+SyncSecurePlus supports addons that can interact with the Discord bots. These addons can extend the functionality of the bots and provide various features.
 
 ### [LuckPermsLogger](https://github.com/OfficialRikiDev/LuckPermsLogger) 
 
-One of the addons for DiscordVelocityPlus is `luckpermslogger`. This addon logs LuckPerms events and sends these logs to a specified Discord channel using a bot managed by DiscordVelocityPlus.
+One of the addons for SyncSecurePlus is `luckpermslogger`. This addon logs LuckPerms events and sends these logs to a specified Discord channel using a bot managed by SyncSecurePlus.
 
 #### Features of LuckPermsLogger
 
@@ -63,7 +63,7 @@ One of the addons for DiscordVelocityPlus is `luckpermslogger`. This addon logs 
 
 ## Development Status
 
-The plugin is currently under development. We are actively inspecting more features to add and enhance functionality. As of now, there are no commands available for DiscordVelocityPlus itself, but more features will be added soon.
+The plugin is currently under development. We are actively inspecting more features to add and enhance functionality. As of now, there are no commands available for SyncSecurePlus itself, but more features will be added soon.
 
 ## Contributing
 
