@@ -63,6 +63,17 @@ Edit this configuration file to match your setup with your Discord bot tokens an
 - `/info <player>`: Displays detailed information about a player.
 - `/unlink`: Unlinks a Minecraft account from a Discord account.
 
+## Preview
+
+![image](https://github.com/user-attachments/assets/e78d9fa6-b183-4eca-9896-52b99d7b13a7)
+
+![ezgif-3-1577cc0e14](https://github.com/user-attachments/assets/0f40b997-4d72-4a0b-9966-66e7e6e64a70)
+
+![image](https://github.com/user-attachments/assets/217daba9-3feb-44c6-973f-0814d94b01ad)
+![image](https://github.com/user-attachments/assets/a8373f45-c220-46dd-9435-ce9016de4864)
+
+
+
 ## Addons
 
 SyncSecurePlus supports addons that can interact with the Discord bots. These addons can extend the functionality of the bots and provide various features.
