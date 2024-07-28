@@ -6,6 +6,10 @@ SyncSecurePlus is a Minecraft plugin designed to integrate multiple Discord bots
 
 - Create and manage multiple Discord bots.
 - Extendable through addons to enhance bot functionality.
+- Player join/leave logger that sends notifications to Discord.
+- Verification commands to link Minecraft accounts with Discord accounts.
+- Information commands to display player details.
+- Unlink command to remove account links.
 
 ## Installation
 
@@ -21,6 +25,22 @@ Below is an example configuration for SyncSecurePlus:
 ```yaml
 enabled: true # Set to true to enable the feature
 
+database: "mysql"
+
+discord:
+  token: "123"
+  server_id: "123"
+  log_channel_id: "123"
+  verified_role_id: "123"
+  nonverified_role_id: "123"
+
+mysql:
+  DATABASE: "syncsecureplus"
+  HOST: "localhost"
+  PORT: 3306
+  USERNAME: "root"
+  PASSWORD: ""
+
 bots:
   - name: "logBot"
     token: "your_discord_bot_token_1"
@@ -32,6 +52,16 @@ bots:
 ```
 
 Edit this configuration file to match your setup with your Discord bot tokens and guild IDs.
+
+## Commands
+
+### In-Game Commands (Permission : syncsecureplus.link)
+- `/link <username>`: Links a Minecraft account with a Discord account.
+- `/link cancel`: Cancels the verification process.
+
+### Discord Commands
+- `/info <player>`: Displays detailed information about a player.
+- `/unlink`: Unlinks a Minecraft account from a Discord account.
 
 ## Addons
 
@@ -47,20 +77,6 @@ One of the addons for SyncSecurePlus is `luckpermslogger`. This addon logs LuckP
 - Configurable via in-game commands.
 - Toggle logging on or off as needed.
 
-#### Commands
-
-- `/lpl reload`  
-  Reloads the plugin configuration.
-
-- `/lpl set channel <channelId>`  
-  Sets the Discord channel ID where logs will be sent.
-
-- `/lpl set bot <botName>`  
-  Sets the name of the Discord bot used for logging.
-
-- `/lpl set toggle`  
-  Toggles whether the bot will send logs to Discord or not.
-
 ## Development Status
 
 The plugin is currently under development. We are actively inspecting more features to add and enhance functionality. As of now, there are no commands available for SyncSecurePlus itself, but more features will be added soon.
@@ -69,17 +85,11 @@ The plugin is currently under development. We are actively inspecting more featu
 
 Contributions are welcome! Please fork the repository and submit pull requests.
 
-```
+## Powered by Yohhan Development
 
-If you need any more details or modifications, feel free to ask!
+This plugin is powered by Yohhan Development. For inquiries and support, feel free to join our Discord. We also offer illustration and graphic design services. Just open a ticket! [https://discord.gg/A9jgs4SvkD](https://discord.gg/A9jgs4SvkD)
 
-```
-## This plugin is powered by Yohhan Development.
-
-### For inquiries and support, feel free to join our Discord. We also offer illustration and graphic design services. Just open a ticket! [https://discord.gg/A9jgs4SvkD](https://discord.gg/A9jgs4SvkD)
-
-
-#
+## License
 
 Unauthorized copying, modification, distribution, in whole or in part, is strictly prohibited.
 
@@ -87,3 +97,6 @@ Any alteration, adaptation, or derivation of the plugin’s code is forbidden. U
 
 We reserve the right to modify these terms and conditions at any time. By continuing to use this plugin, you agree to comply with the most current version of these terms.
 
+---
+
+If you need any more details or modifications, feel free to ask!
